@@ -9,7 +9,7 @@ public class main {
         //2012, 20, 2.35F, "trilogia".isEmpty(), 5);
 
 
-        List<Filme> filmelst = new ArrayList<>();
+        List<Filmes> filmelst = new ArrayList<>();
         List<Series> serielst = new ArrayList<>();
         int i = 1;
         int qtd_filmes = 0;
