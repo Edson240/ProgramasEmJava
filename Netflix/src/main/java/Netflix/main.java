@@ -9,7 +9,7 @@ public class main {
         //2012, 20, 2.35F, "trilogia".isEmpty(), 5);
 
 
-        List<Filmes> filmelst = new ArrayList<>();
+        List<Filme> filmelst = new ArrayList<>();
         List<Series> serielst = new ArrayList<>();
         int i = 1;
         int qtd_filmes = 0;
@@ -22,7 +22,7 @@ public class main {
 
         while (i <= qtd_filmes) {
 
-            Filmes filme = new Filmes();
+            Filmes filme = new Netflix.Filmes();
 
             System.out.print("O nome é: ");
             filme.setNome(ler.next());
